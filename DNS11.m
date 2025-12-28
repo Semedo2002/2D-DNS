@@ -1,7 +1,7 @@
 % =========================================================================
-% MASTER DNS SOLVER: 2D INCOMPRESSIBLE NAVIER-STOKES
-% Method: Spectral-Galerkin with 2/3 Rule De-aliasing
-% Validation Case: Taylor-Green Vortex Decay
+% 2D INCOMPRESSIBLE NAVIER STOKES DNS SOLVER
+% Spectral Galerkin with 2/3  De aliasing
+% Validation Case: Taylor Green Decay
 
 function DNS_Master_Solver
     clearvars; clc; close all;
@@ -144,3 +144,4 @@ function Visualize(w, t, ax)
     drawnow;
 
 end
+
